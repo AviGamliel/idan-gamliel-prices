@@ -1,0 +1,124 @@
+html, body{
+background: rgb(232, 232, 232);
+}
+
+.bannerprices{
+margin-top: 50px !important;
+}
+
+.box{
+   min-height: 450px;
+   max-height: 450px;
+
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+box-shadow:  0 10px 10px 0 rgba(0, 0, 0, 0.261);
+}
+.boxExtra{
+    min-height: 490px;
+    max-height: 490px;
+    margin-top:-20px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+box-shadow:  0 10px 10px 0 rgba(0, 0, 0, 0.261);
+}
+
+.banner{
+    /* height: 200px; */
+}
+.divider{
+    width:80%;
+    border-bottom: 1px solid rgb(179, 179, 179);
+
+}
+.prieces{
+    font-family: heebo;
+    /* position: f; */
+    margin-bottom: 20px;
+    font-size: 24pt;
+    font-weight: 800;
+    /* align-items:  flex-end !important; */
+    /* vertical-align: text-bottom; */
+}
+.br-25{
+border-radius:  15px 15px 0 0;
+}
+
+.ils{
+font-size: 8pt;
+font-weight: 800;
+
+}
+.sub{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+.subliSesc{
+    font-size: 8pt;
+}
+.title{
+    /* background: rgb(2,0,36); */
+font-size: large;
+  
+}
+.tit-white{
+    background: white;
+}
+.tit-blue{
+    color:white;
+    background: linear-gradient(135deg, rgba(30,128,226,1) 0%, rgba(47,192,209,1) 100%);
+
+}
+
+.tit-orange{
+    color:white;
+    background: linear-gradient(135deg, rgba(247,122,33,1) 0%, rgba(243,186,46,1) 100%);
+}
+
+.tit-green{
+    color:white;
+    background: linear-gradient(135deg, rgba(36,135,32,1) 0%, rgba(49,195,89,1) 100%);
+}
+.btnClass{
+    position: relative;
+    font-size: 12pt;
+    height: 30px;
+    border-radius: 25px;
+    background: red;
+    color:white;
+    box-shadow:  0 10px 10px 0 rgba(0, 0, 0, 0.261);
+    border: none;
+    outline: none;
+    bottom:2px;
+}
+.liSesc{
+    font-size: 10pt;
+}
+.rtl{
+    direction: rtl;
+}
+
+@media (max-width: 768px){
+    .box{
+        margin-top: 50px !important;
+
+        min-height: 450px;
+        max-height: 450px;
+     
+         background: rgb(255, 255, 255);
+         border-radius: 15px;
+     box-shadow:  0 10px 10px 0 rgba(0, 0, 0, 0.261);
+     }
+     .boxExtra{
+         margin-top: 50px !important;
+         min-height: 490px;
+         max-height: 490px;
+         margin-top:-20px;
+         background: rgb(255, 255, 255);
+         border-radius: 15px;
+     box-shadow:  0 10px 10px 0 rgba(0, 0, 0, 0.261);
+     }
+     .bannerprices{
+         margin-top: -20px !important;
+     }
+}
